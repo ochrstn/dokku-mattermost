@@ -13,7 +13,7 @@ if [[ -f "$DOKKU_ROOT/$APP/MATTERMOST_URL" || -f "$DOKKU_ROOT/MATTERMOST_URL" ]]
       \"username\": \"Dokku\", \
       \"icon_url\": \"https://pbs.twimg.com/profile_images/732274010566746112/iuWAJwD8_normal.jpg\", \
       \"attachments\": [{ \
-        \"text\": \"<!channel> El proyecto $APP ha sido desplegado en $URL\", \
+        \"text\": \"<!channel> The project $APP was deployed to $URL\", \
         \"color\": \"good\", \
         \"mrkdwn_in\": [\"text\"] \
       }] \
